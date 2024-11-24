@@ -6,6 +6,8 @@ WORKDIR /usr/src/app
 
 # Copy package.json and package-lock.json first to leverage Docker cache
 COPY package*.json ./
+COPY prisma ./prisma/
+
 
 # Install dependencies with caching
 RUN npm ci --legacy-peer-deps
