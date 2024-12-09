@@ -26,5 +26,5 @@
       ]
     }
   },
-  "postCreateCommand": "npm install --force && ./node_modules/.bin/prisma generate"
+  "postCreateCommand": "docker build -t amazon-asambhav-app . && docker run -p 3000:3000 amazon-asambhav-app"
 }
