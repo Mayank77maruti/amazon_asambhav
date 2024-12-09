@@ -1,9 +1,10 @@
 {
   "name": "Amazon Asambhav App Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node",
-  "forwardPorts": [
-    3000
-  ],
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "features": {
+    "docker-in-docker": {}
+  },
+  "forwardPorts": [3000],
   "customizations": {
     "vscode": {
       "settings": {
