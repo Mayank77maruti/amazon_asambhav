@@ -92,7 +92,7 @@
 2. **Create the Workspace**:
 
    ```bash
-   daytona create https://github.com/kom-senapati/Recipe-Genie-Daytona.git
+   daytona create https://Mayank77maruti/amazon_asambhav.git
    ```
 
 3. **Start the Application**:
