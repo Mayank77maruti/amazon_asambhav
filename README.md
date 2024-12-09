@@ -83,10 +83,48 @@
 
 ---
 
+## 🚀 Getting Started
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Open Using Daytona
 
-## Getting Started
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
+
+2. **Create the Workspace**:
+
+   ```bash
+   daytona create https://github.com/kom-senapati/Recipe-Genie-Daytona.git
+   ```
+
+3. **Start the Application**:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🤔 **Why Use DevContainer and Daytona?**
+
+### **DevContainer**
+
+- Simplifies development environment setup in VS Code.
+- Perfect for team collaboration in open-source projects.
+- Eliminates the hassle of creating dev environments for contributors.
+- Automatically configures extensions and settings for a consistent experience.
+
+### **Daytona**
+
+- Works with **any Git platform**: GitHub, GitLab, Bitbucket.
+- Compatible with **any IDE**: Vim, VS Code, JetBrains IDEs.
+- Runs **anywhere**: Localhost, AWS, Azure, GCP, Digital Ocean.
+- Flexible and efficient for modern development workflows.
+
+> **Note:**  
+> Learn how to integrate Daytona into your Next.js app by reading this article:  
+> [Integrate Daytona in Your Next.js App](https://dev.to/komsenapati/integrate-dayotana-in-your-nextjs-app-36ei)
+
+---
+
+## Getting Started {Simple Start}
 
 First, run the development server:
 
@@ -102,7 +140,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result
 
-Docker Installation Process
+Docker Installation Process 
 1. To build the image
 ```bash
 docker build -t amazon-asambhav-app .
