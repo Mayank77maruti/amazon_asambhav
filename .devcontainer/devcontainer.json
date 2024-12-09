@@ -26,5 +26,5 @@
       ]
     }
   },
-  "postCreateCommand": "npm install --force && npx prisma generate --yes"
+  "postCreateCommand": "npm install --force && ./node_modules/.bin/prisma generate"
 }
