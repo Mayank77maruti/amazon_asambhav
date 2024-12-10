@@ -79,7 +79,7 @@
 ## 6. Prototype Demonstration
 
 - **[Demo Link](https://drive.google.com/drive/folders/1zgua0Z-7xckWaaR21-l1juH-s15EPIFs?usp=sharing)**  
-- **[Deployment Link](https://amazon-asambhav.vercel.app/)**  
+- **[Deployment Link](https://new.onestopvyapar.in/)**  
 
 ---
 
