@@ -55,7 +55,7 @@ List of features
 
 ---
 
-## 3. Idea and Approach Details
+## Idea and Approach Details
 
 ### Solution Overview:  
 "Our platform, **One Stop Vyapaar**, is an AI-powered integration hub for small and medium-sized businesses (SMBs). It combines Amazon’s MCF with a tailored marketplace for manufacturers, enabling seamless inventory and quality management."
@@ -72,7 +72,7 @@ List of features
 
 ---
 
-## 4. Methodology/Architecture Diagram
+## Methodology/Architecture Diagram
 
 ![Image](https://github.com/user-attachments/assets/8d6faa7f-0711-468a-bd7e-096532201299)
 
@@ -99,7 +99,8 @@ List of features
 
 ---
 
-## Getting Started {Simple Start}
+## Manual Installation 
+1. { **Simple Start** }
 
 First, run the development server:
 
@@ -114,6 +115,8 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result
+
+2. **Docker Installtion**
 
 Docker Installation Process 
 1. To build the image
