@@ -1,23 +1,50 @@
-# Amazon Smbhav Hackathon 2024: Prototype Submission
+# Onestop Vyapar <Typescript/NextJS>
+## 1. 🚀 Getting Started
 
-## 1. Team Details
+### Open Using Daytona
 
-**Team Name:** Vyapaari
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
 
-**Team Members:**
-- Anshuman Rai
-- Mayank Mohapatra
-- Swaparup Mukherjee
-- Priyanshu Das
+2. **Create the Workspace**:
+
+   ```bash
+   daytona create https://github.com/Mayank77maruti/amazon_asambhav.git
+   ```
+
+## 🤔 **Why Use DevContainer and Daytona?**
+
+### **DevContainer**
+
+- Simplifies development environment setup in VS Code.
+- Perfect for team collaboration in open-source projects.
+- Eliminates the hassle of creating dev environments for contributors.
+- Automatically configures extensions and settings for a consistent experience.
+
+### **Daytona**
+
+- Works with **any Git platform**: GitHub, GitLab, Bitbucket.
+- Compatible with **any IDE**: Vim, VS Code, JetBrains IDEs.
+- Runs **anywhere**: Localhost, AWS, Azure, GCP, Digital Ocean.
+- Flexible and efficient for modern development workflows.
+
+> **Note:**  
+> Learn how to integrate Daytona into your Next.js app by reading this article:  
+> [Integrate Daytona in Your Next.js App](https://dev.to/mayank_mohapatra/integrate-daytona-and-let-the-magic-begin-38hg)
 
 ---
 
-## 2. Theme Details
+## ✨ Features  
 
-**Theme Name:**  
-**Theme No. 3:** Develop a user-friendly tool or plug-in that seamlessly integrates online stores with Amazon's Multi-Channel Fulfillment (MCF) service. This would allow businesses to leverage Amazon's logistics network with minimal coding effort.
-
-### Theme Benefits:
+List of features 
+- **Unified inventory and order management:** Real-time view across multiple platforms.  
+- **AI-powered inventory suggestions:** Predictive analytics for optimal stock management.  
+- **Dynamic pricing:** AI-based pricing adjustments using PyCaret.  
+- **Oversell prevention:** Real-time alerts powered by AWS Lambda and SNS.  
+- **Geolocation heatmaps:** Identify and manage regions with high return rates.  
+- **International fulfillment:** Expand globally with Amazon’s API.  
+- **Built-in marketplace:** Connect manufacturers, wholesalers, and dropshippers with sellers.
+- **DevOps with AWS**: Leverage AWS ECR for Docker image management, AWS ECS for container orchestration, and AWS S3 for scalable storage, ensuring streamlined deployment, monitoring, and scaling of applications.
+- **SSL Certificate**: Secure data transmission between the client and server, encrypting sensitive information and validating website authenticity to protect user data and enhance security.
 - **User-friendly interface:** AI chatbot for managing e-commerce tasks like inventory and delivery handling.  
 - **Amazon's MCF integration:** PAN India logistics network for effortless scaling.  
 - **Unified order management:** Single dashboard to handle orders from multiple platforms.  
@@ -32,17 +59,6 @@
 
 ### Solution Overview:  
 "Our platform, **One Stop Vyapaar**, is an AI-powered integration hub for small and medium-sized businesses (SMBs). It combines Amazon’s MCF with a tailored marketplace for manufacturers, enabling seamless inventory and quality management."
-
----
-
-### Key Features:
-- **Unified inventory and order management:** Real-time view across multiple platforms.  
-- **AI-powered inventory suggestions:** Predictive analytics for optimal stock management.  
-- **Dynamic pricing:** AI-based pricing adjustments using PyCaret.  
-- **Oversell prevention:** Real-time alerts powered by AWS Lambda and SNS.  
-- **Geolocation heatmaps:** Identify and manage regions with high return rates.  
-- **International fulfillment:** Expand globally with Amazon’s API.  
-- **Built-in marketplace:** Connect manufacturers, wholesalers, and dropshippers with sellers.  
 
 ---
 
@@ -80,58 +96,6 @@
 
 - **[Demo Link](https://drive.google.com/drive/folders/1zgua0Z-7xckWaaR21-l1juH-s15EPIFs?usp=sharing)**  
 - **[Deployment Link](https://new.onestopvyapar.in/)**  
-
----
-
-## CopilotKit Coagent Integrated 🎉
-
-We are excited to announce that **CopilotKit Coagent** has been successfully added to our website! 🚀
-
-### Features:
-- **Enhanced AI Assistance**: Get smarter and more personalized responses.
-- **Seamless Integration**: Works effortlessly with our existing features.
-- **Improved User Experience**: Designed to help you navigate and interact with the site better.
-
-Stay tuned for more updates as we continue to enhance your experience with cutting-edge technology! 💡
-
-## 🚀 Getting Started
-
-### Open Using Daytona
-
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
-
-2. **Create the Workspace**:
-
-   ```bash
-   daytona create https://github.com/Mayank77maruti/amazon_asambhav.git
-   ```
-
-3. **Start the Application**:
-   ```bash
-   npm run dev
-   ```
-
----
-
-## 🤔 **Why Use DevContainer and Daytona?**
-
-### **DevContainer**
-
-- Simplifies development environment setup in VS Code.
-- Perfect for team collaboration in open-source projects.
-- Eliminates the hassle of creating dev environments for contributors.
-- Automatically configures extensions and settings for a consistent experience.
-
-### **Daytona**
-
-- Works with **any Git platform**: GitHub, GitLab, Bitbucket.
-- Compatible with **any IDE**: Vim, VS Code, JetBrains IDEs.
-- Runs **anywhere**: Localhost, AWS, Azure, GCP, Digital Ocean.
-- Flexible and efficient for modern development workflows.
-
-> **Note:**  
-> Learn how to integrate Daytona into your Next.js app by reading this article:  
-> [Integrate Daytona in Your Next.js App](https://dev.to/komsenapati/integrate-dayotana-in-your-nextjs-app-36ei)
 
 ---
 
