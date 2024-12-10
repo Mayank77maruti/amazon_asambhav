@@ -83,6 +83,17 @@
 
 ---
 
+## CopilotKit Coagent Integrated 🎉
+
+We are excited to announce that **CopilotKit Coagent** has been successfully added to our website! 🚀
+
+### Features:
+- **Enhanced AI Assistance**: Get smarter and more personalized responses.
+- **Seamless Integration**: Works effortlessly with our existing features.
+- **Improved User Experience**: Designed to help you navigate and interact with the site better.
+
+Stay tuned for more updates as we continue to enhance your experience with cutting-edge technology! 💡
+
 ## 🚀 Getting Started
 
 ### Open Using Daytona
