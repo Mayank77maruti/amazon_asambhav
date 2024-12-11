@@ -4,6 +4,7 @@
   "features": {
     "docker-in-docker": {}
   },
+  "runArgs": ["--privileged"],
   "forwardPorts": [3000],
   "customizations": {
     "vscode": {
@@ -27,5 +28,6 @@
       ]
     }
   },
-  "postCreateCommand": "docker build -t amazon-asambhav-app . && docker run -p 3000:3000 amazon-asambhav-app"
+  "remoteUser": "root",
+  "postCreateCommand": "until docker info > /dev/null 2>&1; do echo 'Waiting for Docker to start...'; sleep 2; done && docker build -t amazon-asambhav-app . && docker run -p 3000:3000 amazon-asambhav-app"
 }
