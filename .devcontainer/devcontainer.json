@@ -1,10 +1,10 @@
 {
   "name": "Amazon Asambhav App Dev Container",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
-  "features": {
-    "docker-in-docker": {}
-  },
-  "runArgs": ["--privileged"],
+  "features": {},
+  "runArgs": [
+    "-v", "/var/run/docker.sock:/var/run/docker.sock"
+  ],
   "forwardPorts": [3000],
   "customizations": {
     "vscode": {
