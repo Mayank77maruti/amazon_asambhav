@@ -31,5 +31,5 @@
     }
   },
   "remoteUser": "root",
-  "postCreateCommand": "apt-get update && apt-get install -y docker.io && until docker info > /dev/null 2>&1; do echo 'Waiting for Docker to start...'; sleep 2; done && docker build -t amazon-asambhav-app . && docker run -p 3000:3000 amazon-asambhav-app"
+  "postCreateCommand": "apt-get update && apt-get install -y docker.io && until docker info > /dev/null 2>&1; do echo 'Waiting for Docker to start...'; sleep 2; done && docker build -t amazon-asambhav-app ."
 }
