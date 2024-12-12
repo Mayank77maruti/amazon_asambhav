@@ -1,4 +1,4 @@
-# Onestop Vyapar
+# Onestop Vyapar <Typescript/NextJS>
 
 ## 1. 🚀 Project Overview
 
