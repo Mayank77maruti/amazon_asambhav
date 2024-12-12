@@ -79,53 +79,6 @@
    daytona create https://github.com/Mayank77maruti/amazon_asambhav.git
    ```
 
-### **Manual Installation**
-
-1. Run the development server:
-
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   # or
-   bun dev
-   ```
-
-   Open [http://localhost:3000](http://localhost:3000) to view the application.
-
-2. Start editing by modifying `app/page.tsx`. Changes will auto-update the application.
-
-3. Learn more about Next.js through the [Next.js Documentation](https://nextjs.org/docs) or the [interactive tutorial](https://nextjs.org/learn).
-
-### **Docker Installation**
-
-1. Build the image:
-
-   ```bash
-   docker build -t amazon-asambhav-app .
-   ```
-
-   ![Build Image](https://github.com/user-attachments/assets/3b199ee9-4643-4303-8033-b27dc2f5cb91)
-
-2. Run the image:
-
-   ```bash
-   docker run -p 3000:3000 amazon-asambhav-app
-   ```
-
-3. Stop the container:
-
-   ```bash
-   docker ps
-   docker stop <container_id>
-   ```
-
-   ![Stop Image](https://github.com/user-attachments/assets/0faf2d70-bd17-40a2-999d-dc5d23615f6a)
-
----
-
 ## 6. ✨ Deployment
 
 ### **Vercel Deployment**
