@@ -78,11 +78,6 @@
    ```bash
    daytona create https://github.com/Mayank77maruti/amazon_asambhav.git
    ```
-3. **run command**
-
-  ```bash
-  docker run -p 3000:3000 amazon-asambhav-app
-  ```
 
 ## 6. ✨ Deployment
 
